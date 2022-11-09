@@ -19,6 +19,7 @@ import base.views as views
 from django.views.generic.base import RedirectView
 from django.contrib.staticfiles.storage import staticfiles_storage
 
+
 urlpatterns = [
     path('welcome/', views.welcome,name='welcome'),
     path('start/', views.start,name='start'),
